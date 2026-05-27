@@ -1,0 +1,22 @@
+# Logs
+logs
+*.log
+
+# Dependencies
+node_modules
+dist
+dist-ssr
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Editor
+.vscode
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
