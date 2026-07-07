@@ -6,6 +6,7 @@ import { useToast } from '@/context/ToastContext'
 import { Button } from '@/components/ui/Button'
 import { Input } from '@/components/ui/Input'
 import { Card, CardContent, CardHeader, CardTitle, CardDescription, Label, Spinner } from '@/components/ui/index'
+import pieroImage from '@/assets/piero.png'
 
 const LoginPage = () => {
   const { login } = useAuth()
@@ -40,7 +41,7 @@ const LoginPage = () => {
     <div className="min-h-screen flex">
       {}
       <div className="hidden lg:flex lg:w-1/2 relative overflow-hidden bg-[#0d0a06]">
-        <div className="absolute inset-0 bg-[url('/barbershop-bg.jpg')] bg-cover bg-center opacity-30" />
+        <div className="absolute inset-0 bg-cover bg-center opacity-40" style={{ backgroundImage: `url(${pieroImage})` }} />
         <div className="absolute inset-0 bg-gradient-to-br from-black/80 via-black/40 to-primary/20" />
         <div className="relative z-10 flex flex-col justify-end p-12">
           <div className="flex items-center gap-3 mb-6">

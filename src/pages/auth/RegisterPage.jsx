@@ -47,6 +47,10 @@ const RegisterPage = () => {
 
   return (
     <div className="min-h-screen flex items-center justify-center p-6 bg-background">
+      <div className="hidden lg:flex lg:w-1/2 relative overflow-hidden bg-[#0d0a06]">
+        <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1599351431202-1e0f0137899a?q=80&w=2000&auto=format&fit=crop')] bg-cover bg-center opacity-40" />
+        <div className="absolute inset-0 bg-gradient-to-br from-black/80 via-black/40 to-primary/20" />
+      </div>
       <div className="w-full max-w-md animate-fade-in">
         <div className="flex items-center gap-2 mb-8">
           <div className="h-8 w-8 rounded-lg bg-primary flex items-center justify-center">
