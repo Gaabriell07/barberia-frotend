@@ -60,3 +60,7 @@ El `AuthContext` persiste el token JWT en `localStorage`. El interceptor de Axio
 const { token: jwt, ...userData } = data   // data = respuesta de /api/Auth/login
 ```
 Asegúrate de que tu backend devuelva `{ token, name, email, role, id, ... }` o ajusta el destructuring.
+
+## 🎨 Personalización de la interfaz
+
+La imagen de fondo de la pantalla de inicio de sesión (`LoginPage.jsx`) ha sido configurada localmente en la ruta `src/assets/piero.png`. Puedes cambiar esta imagen reemplazando el archivo en la misma ruta o modificando el import en el código.
